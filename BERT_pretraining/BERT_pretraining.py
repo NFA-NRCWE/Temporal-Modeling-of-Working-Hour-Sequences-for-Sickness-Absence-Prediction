@@ -17,7 +17,7 @@ from torch.amp import autocast
 from BERT_pretraining_functions import(
     SequenceDataset,
     collate_fn,
-    BERT_model, # fiks
+    BERT_model, 
     mask_inputs_by_day_and_static,
     pad_token_id
     )
